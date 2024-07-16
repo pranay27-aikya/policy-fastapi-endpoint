@@ -1,0 +1,14 @@
+fastapi==0.111.0
+langchain==0.2.7
+langchain-community==0.2.7
+langchain-core==0.2.18
+langchain-openai==0.1.16
+pydantic==2.8.2
+python-dotenv==1.0.1
+uvicorn==0.30.1
+pytest==6.2.5
+gunicorn==20.1.0
+unstructured
+faiss-cpu
+PyPDF2==3.0.1
+google-generativeai==0.7.2
