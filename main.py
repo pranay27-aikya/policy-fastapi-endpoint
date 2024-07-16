@@ -12,7 +12,7 @@ load_dotenv()
 
 
 @application.post("/upload_pdf/")
-async def process_pdf(file: UploadFile = File(...)):
+async def upload_pdf(file: UploadFile = File(...)):
     # Ensure the file is a PDF
     if file.content_type != "application/pdf":
         return {"error": "Invalid file type. Please upload a PDF file."}
